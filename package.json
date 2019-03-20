@@ -10,7 +10,8 @@
     "eslint": "^5.15.3",
     "jest": "^24.5.0",
     "lint": "^1.1.2"
-  },  "devDependencies": {},
+  },
+  "devDependencies": {},
   "scripts": {
     "start": "node index.js",
     "test": "jest --verbose --coverage",
