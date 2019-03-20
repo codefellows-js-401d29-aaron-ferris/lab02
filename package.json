@@ -1,8 +1,16 @@
 {
-  "name": "01-node-ecosystem",
-  "version": "0.0.1",
-  "description": "this is what makes or breaks my stuff",
+  "name": "lab02",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "eslint": "^5.15.3",
+    "jest": "^24.5.0",
+    "lint": "^1.1.2"
+  },  "devDependencies": {},
   "scripts": {
     "start": "node index.js",
     "test": "jest --verbose --coverage",
@@ -10,23 +18,14 @@
     "lint": "eslint **/*.js",
     "jsdoc": "jsdoc -c .docs/config/jsdoc.config.json"
   },
-  "author": "Aaron Ferris",
-  "license": "MIT",
-  "dependencies": {
-    "eslint": "^5.15.3",
-    "jest": "^24.5.0",
-    "lint": "^1.1.2"
-  },
-  "directories": {
-    "lib": "lib"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codefellows-js-401d29-aaron-ferris/lab-01.git"
+    "url": "git+https://github.com/codefellows-js-401d29-aaron-ferris/lab02.git"
   },
+  "author": "Aaron Ferris",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codefellows-js-401d29-aaron-ferris/lab-01/issues"
+    "url": "https://github.com/codefellows-js-401d29-aaron-ferris/lab02/issues"
   },
-  "homepage": "https://github.com/codefellows-js-401d29-aaron-ferris/lab-01#readme",
-  "devDependencies": {}
+  "homepage": "https://github.com/codefellows-js-401d29-aaron-ferris/lab02#readme"
 }
